@@ -1,0 +1,24 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js",
+    "start": "pm2 start ./src/server.js --name UserSystem",
+    "stop": "pm2 stop ./src/server.js --name UserSystem",
+    "uninstall": "pm2 delete UserSystem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdussamaduz/simple-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdussamaduz/simple-application/issues"
+  },
+  "homepage": "https://github.com/Abdussamaduz/simple-application#readme"
+}
